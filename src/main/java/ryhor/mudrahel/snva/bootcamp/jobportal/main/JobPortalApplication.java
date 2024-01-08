@@ -1,4 +1,4 @@
-package ryhor.mudrahel.snva.bootcamp.jobportal;
+package ryhor.mudrahel.snva.bootcamp.jobportal.main;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
