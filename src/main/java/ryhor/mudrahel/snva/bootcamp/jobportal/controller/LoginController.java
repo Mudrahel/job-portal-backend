@@ -21,7 +21,7 @@ public class LoginController {
     private UserRepository userRepository;
 
     /*
-    Note. To verify, make POST request to http://localhost:8080/api/v1/login
+    Request example, POST request to http://localhost:8080/api/v1/login
     with body =raw, content type json:
     {"username": "john_doe", "password": "1234"}
     */
