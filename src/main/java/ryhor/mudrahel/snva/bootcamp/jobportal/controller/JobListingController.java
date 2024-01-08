@@ -12,11 +12,8 @@ import java.util.List;
 
 @RestController
 @RequestMapping("api/v1/job_listings")
-//TODO verify that it is working
 @CrossOrigin(origins = "${my.allowed.origins}")
 public class JobListingController {
-    @Value("${my.allowed.origins}")
-    private String allowedOrigins;
 
     @Autowired
     private JobListingRepository jobListingRepository;

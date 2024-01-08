@@ -10,12 +10,8 @@ import ryhor.mudrahel.snva.bootcamp.jobportal.repository.UserRepository;
 
 @RestController
 @RequestMapping("/api/v1/login")
-//TODO verify that ti is working
 @CrossOrigin(origins = "${my.allowed.origins}")
 public class LoginController {
-
-    @Value("${my.allowed.origins}")
-    private String allowedOrigins;
 
     @Autowired
     private UserRepository userRepository;
